@@ -1,0 +1,9 @@
+name: "Install and Build"
+description: "Installs and builds"
+runs:
+  using: "composite"
+  steps:
+    - run: yarn --immutable
+      shell: bash
+    - run: yarn build
+      shell: bash
