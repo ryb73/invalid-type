@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-shadow
 import { assertType, describe, test } from "vitest";
-import type { invalid } from ".";
+import type { invalid } from "../src";
 
 const invalidValue = undefined as invalid<"Invalid type">;
 
