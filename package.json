@@ -1,6 +1,6 @@
 {
   "name": "invalid-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"invalid\" type for TypeScript",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
